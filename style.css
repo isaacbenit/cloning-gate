@@ -27,7 +27,7 @@
     height: 3em;
     margin-top: 24px;
 }
-.header1 ul button{
+.header1 ul .button{
     height: 2.5em;
     border-radius: 15px;
     font-family: sans-serif;
@@ -35,8 +35,20 @@
     font-size: 12px;
     background-color: white;
     width: 14em;
-    height: 3em;
+    height: 4em;
+    display: flex;
+    gap: 9px;
 }
+.header1 ul .button img{
+    width: 20px;
+    height: 23px;
+    margin-top: 4px;
+}
+.header1 ul .button h3{
+    /* width: 24px; */
+    margin-top: 8px;
+}
+
 .header2{
     background-image: url('2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.jpeg');
     background-size: cover;
@@ -298,9 +310,222 @@
     font-size: large;
     padding-top: 13px;
 }
-.next2 h5{
+.next2 h2{
     font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 300;
     font-size: large;
     padding-top: 13px;
+}
+.bodered{
+    border: 1px solid black;
+    display: flex;
+    margin-right: 5%;
+    margin-left:5%;
+    border-radius: 25px;
+    height: 270px;
+    padding-top: 12px;
+    margin-top: 25px;
+}
+.bodered .first{
+    width: 25%;
+    padding-left: 12px;
+    margin-right: 234px;
+}
+.bodered .first h2{
+   font-family: sans-serif;
+   font-size: 45px;
+}
+.bodered .first p{
+    font-family: sans-serif;
+    margin-top: 12px;
+    font-size: 18px;
+ }
+.bodered .second{
+    margin-right: auto;
+}
+.bodered .second .images2{
+    display: flex;
+    gap: 60px;
+}
+.bodered .second .images2 img{
+    width: 189px;
+    border-radius: 25px;
+    filter: brightness(70%);
+
+}
+.bodered .second .names2{
+    position: relative;
+    display: flex;
+    gap: 140px;
+    list-style: none;
+    color: white;
+    margin-top: -22px;
+
+}
+.bodered .second .names2 .last{
+    margin-left: 73px;
+    width: 123px;
+    margin-top: -24px;
+}
+.marks{
+    display: flex;
+    margin-left: 90px;
+    margin-right: 80px;
+    margin-top: 60px;
+    gap: 90px;
+}
+.marks .n1 img{
+    width: 34px;
+}
+.marks .n1 h2{
+    font-family: sans-serif;
+    margin-top: 12px;
+    font-size: 25px;
+}
+.marks .n1 h5{
+    font-family: sans-serif;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.girl{
+    position:absolute;
+    margin-left: 90px;
+}
+.girl img{
+    margin-top: 44px;
+    width: 105em;
+    border-radius: 25px;
+}
+.para{
+    position: relative;
+    margin-top: -550px;
+    width: 490px;
+    height: max-content;
+    margin-left: 104px;
+    margin-bottom: 123px;
+    background-color: white;
+    border-radius: 15px;
+}
+.para h2{
+    font-family: serif;
+    font-weight: 500;
+    font-size: 45px;
+    margin-left: 18px;
+    padding-top: 24px;
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+.para p{
+    font-family: serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 18px;
+    margin-top: 12px;
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+.para button{
+    margin-left: 18px;
+    margin-top: 12px;
+    margin-bottom: 14px;
+    background-color: rgba(64,68,92,255);
+    color: white;
+    height: 45px;
+    border-radius: 15px;
+    font-size: larger;
+}
+.wordspart{
+    margin-top: 850px;
+}
+
+.lastparagraphs{
+    margin-left: 90px;
+    margin-top: 24px;
+    font-family: serif;
+    font-size: larger;
+    font-weight: 100;
+}
+.h2es{
+    margin-left: 90px;
+    margin-top: 44px;
+    font-family: serif;
+    font-size: 28px;
+    font-weight: 550;
+}
+.footer{
+    margin: 24px;
+    background-color: rgba(247,247,248,255);
+    
+}
+.lay1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+.lay1 .list1{
+    list-style: none;
+    margin-top: 34px;
+    margin-left: 30px;
+}
+.lay1 .list1 .l1{
+    margin-bottom: 34px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.lay1 .list1 .l2{
+    /* margin-bottom: 34px; */
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.lay1 .list1 li{
+    margin-bottom: 14px;
+    
+}
+
+
+.lay1 .list2 {
+    list-style: none;
+    margin-top: 34px;
+}
+.lay1 .list2 li{
+    margin-bottom: 14px;
+}
+.lay1 .list2 .l1{
+    margin-top: 74px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.lay1 .list3 {
+    list-style: none;
+    margin-top: 34px;
+    margin-right: 395px;
+}
+.lay1 .list3 li{
+    margin-bottom: 14px;
+}
+.lay1 .list3 .l1{
+    margin-top: 74px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.lay2 p{
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    
 }
