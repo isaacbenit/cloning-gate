@@ -2,12 +2,16 @@
     margin: 0%;
     /* height: 12344px; */
 }
+body{
+    width: 100%;
+
+}
 .header1{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    margin-left: 40px;
-    margin-right: 80px;
+    /* margin-left: 40px; */
+    /* margin-right: 80px; */
 }
 .header1 ul{
     list-style: none;
@@ -15,38 +19,43 @@
     flex-wrap: wrap;
     /* margin-left: 23px; */
     margin-left: auto;
-    gap: 3em;
+    gap: 4em;
     font-family: Sans-serif;
-    font-size: larger;
+    font-size: 10px;
     height: 4em;
     text-align: center;
     padding-top: 35px;
     font-weight: bold;
+    margin-top: 12px;
+    margin-right:45px ;
 }
 .header1 img{
     height: 3em;
-    margin-top: 24px;
+    margin-top: 34px;
+    margin-left: 25px;
+    width: 18%;
 }
 .header1 ul .button{
     height: 2.5em;
     border-radius: 15px;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 8px;
     background-color: white;
-    width: 14em;
+    width: 20em;
     height: 4em;
     display: flex;
     gap: 9px;
+    margin-bottom:105px;
 }
 .header1 ul .button img{
     width: 20px;
     height: 23px;
-    margin-top: 4px;
+    margin-top: 3px;
 }
 .header1 ul .button h3{
     /* width: 24px; */
-    margin-top: 8px;
+    margin-top:6px;
 }
 
 .header2{
@@ -70,8 +79,8 @@
     background-color: white;
     width: 90%;
     border-radius: 25px;
-    margin: 3em 7em;
-    height: 5em;
+    margin: 2em 5em;
+    height: 4em;
     text-align: center;
     padding-top: 14px;
     margin-top: -340px;
@@ -83,16 +92,16 @@
     gap: 40px; */
 }
 .input{
-    width: 28%;
+    width: 25%;
     border-radius: 15px;
-    height: 3em;
+    height: 2em;
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .inputline button{
     height: 50%;
-    width: 5.5%;
+    width: 6%;
     background-color: rgba(25,30,59,255);
     border-radius: 15px;
     font-family: sans-serif;
@@ -103,8 +112,8 @@
     background-color: rgba(25,30,59,255);
     display: flex;
     gap: 60px;
-    width: 92%;
-    height: 110px;
+    width: 90%;
+    height: 100px;
     border-radius: 20px;
     margin-left: 90px;
     margin-top: 23px;
@@ -113,8 +122,8 @@
 .layer2 img{
     width: 80px;
     border-radius: 50px;
-    height: 90px;
-    margin-top: 12px;
+    height: 60px;
+    margin-top: 22px;
     /* color: white; */
     background-color:rgba(174,209,243,255);
     margin-left: 12px;
@@ -124,7 +133,7 @@
     font-size: 26px;
     text-align: center;
     margin-left: 24px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .layer2 button{
     width: 123px;
@@ -135,12 +144,13 @@
     font-family: sans-serif;
     font-size: 18px;
     margin-left: auto;
-    margin-top: 43px;
+    margin-top: 33px;
     margin-right: 12px;
 }
 .text1{
     margin-left: 90px;
     margin-top: 23px;
+    margin-bottom: 12px;
     font-family: sans-serif;
     font-size: 40px;
 }
@@ -156,6 +166,7 @@
 .one img{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    width: 229px;
     
 }
 .one h2{
@@ -169,8 +180,9 @@
     border-radius: 25px;
 }
 .two img{
-    width: 380px;
+    /* width: 380px; */
     /* height: 120px; */
+    width: 229px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;  
 }
@@ -185,8 +197,9 @@
     border-radius: 25px;
 }
 .three img{
-    width: 380px;
+    /* width: 380px; */
     /* height: 120px; */
+    width: 229px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;  
 }
@@ -201,8 +214,9 @@
     border-radius: 25px;
 }
 .four img{
-    width: 380px;
+    /* width: 380px; */
     /* height: 120px; */
+    width: 229px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;  
 }
@@ -223,7 +237,7 @@
     display: flex;
     flex-wrap: wrap;
     overflow-x: auto;
-    gap: 50px;
+    gap: 40px;
     margin-left: 90px;
     /* padding: 25px; */
     filter: brightness(70%);
@@ -242,9 +256,9 @@
     list-style: none;
     justify-content: space-between;
     margin-left: 65px;
-    margin-right: 200px;
+    margin-right: 20px;
     font-family: sans-serif;
-    font-size:20px;
+    font-size:18px;
     font-weight: bold;
     color: white;
     margin-top:-32px;
@@ -302,6 +316,7 @@
 .next2 .img{
     border-radius: 25px;
     margin-top: 24px;
+    width: 90%;
 }
  
 .next2 h2{
@@ -319,21 +334,22 @@
 .bodered{
     border: 1px solid black;
     display: flex;
-    margin-right: 5%;
-    margin-left:5%;
+    margin-right: 90px;
+    margin-left:90px;
     border-radius: 25px;
     height: 270px;
     padding-top: 12px;
     margin-top: 25px;
+    width: 90%;
 }
 .bodered .first{
-    width: 25%;
+    width: 35%;
     padding-left: 12px;
-    margin-right: 234px;
+    margin-right: 90px;
 }
 .bodered .first h2{
    font-family: sans-serif;
-   font-size: 45px;
+   font-size: 30px;
 }
 .bodered .first p{
     font-family: sans-serif;
@@ -345,10 +361,10 @@
 }
 .bodered .second .images2{
     display: flex;
-    gap: 60px;
+    gap: 40px;
 }
 .bodered .second .images2 img{
-    width: 189px;
+    width: 123px;
     border-radius: 25px;
     filter: brightness(70%);
 
@@ -356,23 +372,29 @@
 .bodered .second .names2{
     position: relative;
     display: flex;
-    gap: 140px;
+    gap: 25px;
     list-style: none;
     color: white;
     margin-top: -22px;
-
 }
 .bodered .second .names2 .last{
-    margin-left: 73px;
+    /* margin-right: 29px; */
     width: 123px;
-    margin-top: -24px;
+    margin-top: -26px;
+}
+
+.bodered .second .names2 .line{
+    margin-right:70px;
+}
+.bodered .second .names2 .wrd1{
+    margin-left:-26px;
 }
 .marks{
     display: flex;
     margin-left: 90px;
     margin-right: 80px;
     margin-top: 60px;
-    gap: 90px;
+    gap: 70px;
 }
 .marks .n1 img{
     width: 34px;
@@ -391,17 +413,19 @@
 .girl{
     position:absolute;
     margin-left: 90px;
+    margin-right: 90px;
 }
 .girl img{
     margin-top: 44px;
-    width: 105em;
+    width: 70em;
     border-radius: 25px;
 }
 .para{
     position: relative;
-    margin-top: -550px;
-    width: 490px;
-    height: max-content;
+    margin-top: -390px;
+    width: 300px;
+    height: 300px;
+    /* height: max-content; */
     margin-left: 104px;
     margin-bottom: 123px;
     background-color: white;
@@ -410,7 +434,7 @@
 .para h2{
     font-family: serif;
     font-weight: 500;
-    font-size: 45px;
+    font-size: 25px;
     margin-left: 18px;
     padding-top: 24px;
     margin-right: 20px;
@@ -419,7 +443,7 @@
 .para p{
     font-family: serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 15px;
     margin-left: 18px;
     margin-top: 12px;
     margin-right: 20px;
@@ -436,7 +460,7 @@
     font-size: larger;
 }
 .wordspart{
-    margin-top: 850px;
+    margin-top: 650px;
 }
 
 .lastparagraphs{
@@ -462,12 +486,15 @@
 .lay1{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;   
+    flex-wrap: wrap; 
+    /* gap: 20px;   */
+    
 }
 .lay1 .list1{
     list-style: none;
     margin-top: 34px;
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-right: 30px;
 }
 .lay1 .list1 .l1{
     margin-bottom: 34px;
@@ -488,10 +515,10 @@
     
 }
 
-
 .lay1 .list2 {
     list-style: none;
     margin-top: 34px;
+    margin-right: 30px;
 }
 .lay1 .list2 li{
     margin-bottom: 14px;
@@ -507,7 +534,7 @@
 .lay1 .list3 {
     list-style: none;
     margin-top: 34px;
-    margin-right: 395px;
+    margin-right: 220px;
 }
 .lay1 .list3 li{
     margin-bottom: 14px;
