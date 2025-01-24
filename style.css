@@ -310,12 +310,7 @@
     font-size: large;
     padding-top: 13px;
 }
-.next2 h2{
-    font-family: sans-serif;
-    font-weight: 300;
-    font-size: large;
-    padding-top: 13px;
-}
+
 .bodered{
     border: 1px solid black;
     display: flex;
@@ -441,6 +436,7 @@
 
 .lastparagraphs{
     margin-left: 90px;
+    margin-right: 90px;
     margin-top: 24px;
     font-family: serif;
     font-size: larger;
