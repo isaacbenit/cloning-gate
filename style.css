@@ -310,7 +310,12 @@
     font-size: large;
     padding-top: 13px;
 }
-
+.next2 h5{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 13px;
+}
 .bodered{
     border: 1px solid black;
     display: flex;
